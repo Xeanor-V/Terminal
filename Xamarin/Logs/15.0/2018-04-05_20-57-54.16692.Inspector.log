@@ -1,0 +1,4 @@
+Inspector extension loaded
+InspectorDebugSession(0): StateChange: Start -> EntryPointBreakpointRegistered
+InspectorDebugSession(0): Constructed
+InspectorDebugSession(0): HandleTargetEvent: TargetExited

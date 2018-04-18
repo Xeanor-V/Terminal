@@ -1,0 +1,17 @@
+﻿MonoDroidLog: Information: 0: [I:]:                     Found Xamarin.Android 7.3.0.13
+MonoDroidLog: Information: 0: [I:sdk]:                  Runtime path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Xamarin\Android
+MonoDroidLog: Information: 0: [I:sdk]:                  Framework path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\common7\ide\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v1.0
+MonoDroidLog: Information: 0: [I:sdk]:                    Key HKCU\SOFTWARE\Xamarin\VisualStudio\15.0_84657a15\Android\AndroidSdkDirectory found:
+    Path contains adb in \platform-tools (C:\Program Files (x86)\Android\android-sdk).
+MonoDroidLog: Information: 0: [I:sdk]:                    Key HKCU\SOFTWARE\Xamarin\VisualStudio\15.0_84657a15\Android\AndroidNdkDirectory found:
+    Path contains ndk-stack in \. (C:\ProgramData\Microsoft\AndroidNDK64\android-ndk-r13b).
+MonoDroidLog: Information: 0: [I:sdk]:                    Key HKCU\SOFTWARE\Xamarin\VisualStudio\15.0_84657a15\Android\JavaSdkDirectory found:
+    Path contains jarsigner.exe in \bin (C:\Program Files\Java\jdk1.8.0_112).
+MonoDroidLog: Information: 0: [I:]:                     Found Android SDK. API levels: 23, 24
+MonoDroidLog: Information: 0: [I:]:                     Tracking android devices started
+MonoDroidLog: Information: 0: [D:]:                     TrackDeviceTask got: 
+MonoDroidLog: Information: 0: [I:]:                     Got new device list from adb with 0 devices
+MonoDroidLog: Information: 0: [D:]:                     Tracking avd started
+MonoDroidLog: Information: 0: [D:]:                     avd watcher *.ini path: 'C:\Users\master\.android\avd'
+MonoDroidLog: Information: 0: [D:]:                     avd watcher: got device list from avd with 4 devices
+MonoDroidLog: Information: 0: [I:]:                     Tracking android devices stopped

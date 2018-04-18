@@ -1,0 +1,67 @@
+﻿Clide.DevEnvFactory|Start|0|Initializing development environment composition.|2018-04-06 01:15:12Z
+Clide.DevEnvFactory|Information|0|Extension manifest for hosting package found at 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Xamarin.VisualStudio\extension.vsixmanifest'.|2018-04-06 01:15:12Z
+Clide.DevEnvFactory|Stop|0|Initializing development environment composition.|2018-04-06 01:15:12Z
+Clide.Host|Start|0|Initializing package|2018-04-06 01:15:12Z
+Clide.HostImpl|Transfer|0|Transfer, relatedActivityId=68648bc4-f4f9-4bc0-931a-dd6cc66b4ac5|2018-04-06 01:15:12Z
+Clide.HostImpl|Start|0|Registering package commands|2018-04-06 01:15:12Z
+Clide.HostImpl|Stop|0|Registering package commands|2018-04-06 01:15:12Z
+Clide.HostImpl|Transfer|0|Transfer, relatedActivityId=c5503fc5-2213-45cf-957d-8df9ed83cb1c|2018-04-06 01:15:12Z
+Clide.Host|Information|0|Package initialization finished successfully|2018-04-06 01:15:12Z
+Clide.Host|Stop|0|Initializing package|2018-04-06 01:15:12Z
+Clide.DevEnvFactory|Start|0|Initializing development environment composition.|2018-04-06 01:15:12Z
+Clide.DevEnvFactory|Information|0|Extension manifest for hosting package found at 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Xamarin.VisualStudio\extension.vsixmanifest'.|2018-04-06 01:15:12Z
+Clide.DevEnvFactory|Stop|0|Initializing development environment composition.|2018-04-06 01:15:12Z
+Xamarin.VisualStudio.TastyPackage|Information|0|Hooked up SDB tracing adapter|2018-04-06 01:15:12Z
+Xamarin.VisualStudio.TastyPackage|Information|0|Initialization finished|2018-04-06 01:15:12Z
+Clide.OutputWindowManager|Start|0|Initializing trace output pane 'Xamarin'.|2018-04-06 01:15:12Z
+Clide.OutputWindowManager|Verbose|0|Retrieving potentially existing output pane 'Xamarin'.|2018-04-06 01:15:12Z
+Clide.OutputWindowManager|Verbose|0|Creating output pane 'Xamarin' since it doesn't exist already.|2018-04-06 01:15:12Z
+Clide.OutputWindowManager|Stop|0|Initializing trace output pane 'Xamarin'.|2018-04-06 01:15:12Z
+Xamarin|Information|0|Xamarin - 4.5.0.443-d15-2+c871575|2018-04-06 01:15:12Z
+Xamarin.VisualStudio.Activation.AccountManager|Information|0|VS2016 Community|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|No license found for iOS|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|Running license sync for iOS|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|Not logged in, using iOS Community|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|No license found for Android|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|Running license sync for Android|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|Not logged in, using Android Community|2018-04-06 01:15:13Z
+Clide.DevEnvFactory|Start|0|Initializing development environment composition.|2018-04-06 01:15:13Z
+Clide.DevEnvFactory|Information|0|Extension manifest for hosting package found at 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Xamarin.VisualStudio\extension.vsixmanifest'.|2018-04-06 01:15:13Z
+Clide.DevEnvFactory|Stop|0|Initializing development environment composition.|2018-04-06 01:15:13Z
+Clide.Host|Start|0|Initializing package|2018-04-06 01:15:13Z
+Clide.HostImpl|Transfer|0|Transfer, relatedActivityId=eb0d67df-d98c-4094-8559-df2dcf4d2ea3|2018-04-06 01:15:13Z
+Clide.HostImpl|Start|0|Registering package commands|2018-04-06 01:15:13Z
+Clide.HostImpl|Stop|0|Registering package commands|2018-04-06 01:15:13Z
+Clide.HostImpl|Transfer|0|Transfer, relatedActivityId=4300fc23-4f2e-4dcc-b5b7-9f11b92e9b7f|2018-04-06 01:15:13Z
+Clide.Host|Information|0|Package initialization finished successfully|2018-04-06 01:15:13Z
+Clide.Host|Stop|0|Initializing package|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.TastyPackage|Information|0|Hooked up SDB tracing adapter|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.TastyPackage|Information|0|Initialization finished|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.Android.XamarinAndroidPackage|Warning|0|Initializing Xamarin.VisualStudio.Android.XamarinAndroidPackage|2018-04-06 01:15:13Z
+Clide.OutputWindowManager|Start|0|Initializing trace output pane 'Xamarin Diagnostics'.|2018-04-06 01:15:13Z
+Clide.OutputWindowManager|Verbose|0|Retrieving potentially existing output pane 'Xamarin Diagnostics'.|2018-04-06 01:15:13Z
+Clide.OutputWindowManager|Verbose|0|Creating output pane 'Xamarin Diagnostics' since it doesn't exist already.|2018-04-06 01:15:13Z
+Clide.OutputWindowManager|Stop|0|Initializing trace output pane 'Xamarin Diagnostics'.|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.ProcessManager+ProcessAdapter|Verbose|0|Starting Process: 04/05/2018 20:15:13|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.ProcessManager+ProcessAdapter|Verbose|0|Executable: where|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.ProcessManager+ProcessAdapter|Verbose|0|Arguments: javac|2018-04-06 01:15:13Z
+Clide.SettingsManager|Start|0|Reading settings from System.Object[]|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.Android.AndroidDeviceSettings|Verbose|0|BeginEdit|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.Android.AndroidDeviceSettings|Verbose|0|EndEdit|2018-04-06 01:15:13Z
+Clide.SettingsManager|Stop|0|Reading settings from System.Object[]|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.ProcessManager+ProcessAdapter|Verbose|0|Process Finished [-1]|2018-04-06 01:15:13Z
+Xamarin.VisualStudio.Android.MonoAndroidFlavoredProject|Error|0|Error HRESULT E_FAIL has been returned from a call to a COM component.
+System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(Int32 hr, Int32[] expectedHRFailure)
+   at Microsoft.VisualStudio.Shell.Flavor.FlavoredProjectBase.GetGuidProperty(UInt32 itemId, Int32 propId)
+   at Xamarin.VisualStudio.Android.MonoAndroidFlavoredProject.GetGuidProperty(UInt32 itemId, Int32 propId) in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\ProjectSystem\MonoAndroidFlavoredProject.cs:line 335|2018-04-06 01:15:30Z
+Xamarin.VisualStudio.ProjectFixerRunner|Information|0|Solution loaded: 'HelloAR'|2018-04-06 01:19:51Z
+Xamarin.VisualStudio.ProjectFixerRunner|Information|0|running fixup on project 'C:\Users\master\Documents\TT1\Prototipo\samples\HelloAR\HelloAR.csproj'|2018-04-06 01:19:52Z
+Xamarin.VisualStudio.ProjectFixerRunner|Information|0|running fixup on project 'C:\Users\master\Documents\TT1\Prototipo\samples\JavaGL\JavaGL.csproj'|2018-04-06 01:19:52Z
+Xamarin.VisualStudio.Android.MonoAndroidFlavoredProject|Error|0|Error no especificado (Exception from HRESULT: 0x80004005 (E_FAIL))
+System.Runtime.InteropServices.COMException (0x80004005): Error no especificado (Exception from HRESULT: 0x80004005 (E_FAIL))
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(Int32 hr, Int32[] expectedHRFailure)
+   at Microsoft.VisualStudio.Shell.Flavor.FlavoredProjectBase.GetGuidProperty(UInt32 itemId, Int32 propId)
+   at Xamarin.VisualStudio.Android.MonoAndroidFlavoredProject.GetGuidProperty(UInt32 itemId, Int32 propId) in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\ProjectSystem\MonoAndroidFlavoredProject.cs:line 335|2018-04-06 01:26:16Z

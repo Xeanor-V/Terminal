@@ -1,0 +1,116 @@
+﻿Clide.DevEnvFactory|Start|0|Initializing development environment composition.|2018-04-06 01:57:48Z
+Clide.DevEnvFactory|Information|0|Extension manifest for hosting package found at 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Xamarin.VisualStudio\extension.vsixmanifest'.|2018-04-06 01:57:50Z
+Clide.DevEnvFactory|Stop|0|Initializing development environment composition.|2018-04-06 01:57:51Z
+Clide.Host|Start|0|Initializing package|2018-04-06 01:57:51Z
+Clide.HostImpl|Transfer|0|Transfer, relatedActivityId=cba5b725-cba9-4607-a00e-d7bf961aef32|2018-04-06 01:57:51Z
+Clide.HostImpl|Start|0|Registering package commands|2018-04-06 01:57:51Z
+Clide.HostImpl|Stop|0|Registering package commands|2018-04-06 01:57:51Z
+Clide.HostImpl|Transfer|0|Transfer, relatedActivityId=2e700339-9476-4c40-ae3a-f453a3c35c14|2018-04-06 01:57:51Z
+Clide.Host|Information|0|Package initialization finished successfully|2018-04-06 01:57:51Z
+Clide.Host|Stop|0|Initializing package|2018-04-06 01:57:51Z
+Clide.DevEnvFactory|Start|0|Initializing development environment composition.|2018-04-06 01:57:51Z
+Clide.DevEnvFactory|Information|0|Extension manifest for hosting package found at 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Xamarin.VisualStudio\extension.vsixmanifest'.|2018-04-06 01:57:51Z
+Clide.DevEnvFactory|Stop|0|Initializing development environment composition.|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.TastyPackage|Information|0|Hooked up SDB tracing adapter|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.TastyPackage|Information|0|Initialization finished|2018-04-06 01:57:51Z
+Xamarin|Information|0|Xamarin - 4.5.0.443-d15-2+c871575|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.Activation.AccountManager|Information|0|VS2016 Community|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|No license found for iOS|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|Running license sync for iOS|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|Not logged in, using iOS Community|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|No license found for Android|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|Running license sync for Android|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.Activation.ActivationManager|Information|0|Not logged in, using Android Community|2018-04-06 01:57:51Z
+Clide.DevEnvFactory|Start|0|Initializing development environment composition.|2018-04-06 01:57:51Z
+Clide.DevEnvFactory|Information|0|Extension manifest for hosting package found at 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Xamarin.VisualStudio\extension.vsixmanifest'.|2018-04-06 01:57:51Z
+Clide.DevEnvFactory|Stop|0|Initializing development environment composition.|2018-04-06 01:57:51Z
+Clide.Host|Start|0|Initializing package|2018-04-06 01:57:51Z
+Clide.HostImpl|Transfer|0|Transfer, relatedActivityId=73eef303-6124-465c-9dca-323231a96f11|2018-04-06 01:57:51Z
+Clide.HostImpl|Start|0|Registering package commands|2018-04-06 01:57:51Z
+Clide.HostImpl|Stop|0|Registering package commands|2018-04-06 01:57:51Z
+Clide.HostImpl|Transfer|0|Transfer, relatedActivityId=ee41b3ae-cbc8-4586-aeb0-6c1243b4126a|2018-04-06 01:57:51Z
+Clide.Host|Information|0|Package initialization finished successfully|2018-04-06 01:57:51Z
+Clide.Host|Stop|0|Initializing package|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.TastyPackage|Information|0|Hooked up SDB tracing adapter|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.TastyPackage|Information|0|Initialization finished|2018-04-06 01:57:51Z
+Xamarin.VisualStudio.Android.XamarinAndroidPackage|Warning|0|Initializing Xamarin.VisualStudio.Android.XamarinAndroidPackage|2018-04-06 01:57:51Z
+Clide.SettingsManager|Start|0|Reading settings from System.Object[]|2018-04-06 01:57:52Z
+Xamarin.VisualStudio.Android.AndroidDeviceSettings|Verbose|0|BeginEdit|2018-04-06 01:57:52Z
+Xamarin.VisualStudio.Android.AndroidDeviceSettings|Verbose|0|EndEdit|2018-04-06 01:57:52Z
+Clide.SettingsManager|Stop|0|Reading settings from System.Object[]|2018-04-06 01:57:52Z
+Xamarin.VisualStudio.ProcessManager+ProcessAdapter|Verbose|0|Starting Process: 04/05/2018 20:57:52|2018-04-06 01:57:52Z
+Xamarin.VisualStudio.ProcessManager+ProcessAdapter|Verbose|0|Executable: where|2018-04-06 01:57:52Z
+Xamarin.VisualStudio.ProcessManager+ProcessAdapter|Verbose|0|Arguments: javac|2018-04-06 01:57:52Z
+Xamarin.VisualStudio.ProcessManager+ProcessAdapter|Verbose|0|Process Finished [-1]|2018-04-06 01:57:52Z
+Xamarin.VisualStudio.Android.MonoAndroidFlavoredProject|Error|0|Error HRESULT E_FAIL has been returned from a call to a COM component.
+System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(Int32 hr, Int32[] expectedHRFailure)
+   at Microsoft.VisualStudio.Shell.Flavor.FlavoredProjectBase.GetGuidProperty(UInt32 itemId, Int32 propId)
+   at Xamarin.VisualStudio.Android.MonoAndroidFlavoredProject.GetGuidProperty(UInt32 itemId, Int32 propId) in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\ProjectSystem\MonoAndroidFlavoredProject.cs:line 335|2018-04-06 01:57:55Z
+Xamarin.VisualStudio.Android.MonoAndroidFlavoredProject|Error|0|Error HRESULT E_FAIL has been returned from a call to a COM component.
+System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(Int32 hr, Int32[] expectedHRFailure)
+   at Microsoft.VisualStudio.Shell.Flavor.FlavoredProjectBase.GetGuidProperty(UInt32 itemId, Int32 propId)
+   at Xamarin.VisualStudio.Android.MonoAndroidFlavoredProject.GetGuidProperty(UInt32 itemId, Int32 propId) in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\ProjectSystem\MonoAndroidFlavoredProject.cs:line 335|2018-04-06 01:58:25Z
+Clide.OutputWindowManager|Start|0|Initializing trace output pane 'Xamarin'.|2018-04-06 01:58:25Z
+Clide.OutputWindowManager|Verbose|0|Retrieving potentially existing output pane 'Xamarin'.|2018-04-06 01:58:25Z
+Clide.OutputWindowManager|Verbose|0|Creating output pane 'Xamarin' since it doesn't exist already.|2018-04-06 01:58:25Z
+Clide.OutputWindowManager|Stop|0|Initializing trace output pane 'Xamarin'.|2018-04-06 01:58:25Z
+Clide.OutputWindowManager|Start|0|Initializing trace output pane 'Xamarin Diagnostics'.|2018-04-06 01:58:25Z
+Clide.OutputWindowManager|Verbose|0|Retrieving potentially existing output pane 'Xamarin Diagnostics'.|2018-04-06 01:58:25Z
+Clide.OutputWindowManager|Verbose|0|Creating output pane 'Xamarin Diagnostics' since it doesn't exist already.|2018-04-06 01:58:25Z
+Clide.OutputWindowManager|Stop|0|Initializing trace output pane 'Xamarin Diagnostics'.|2018-04-06 01:58:25Z
+Xamarin.VisualStudio.ProjectFixerRunner|Information|0|Solution loaded: 'HelloAR'|2018-04-06 01:58:31Z
+Xamarin.VisualStudio.ProjectFixerRunner|Information|0|running fixup on project 'C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\HelloAR.csproj'|2018-04-06 01:58:31Z
+Xamarin.VisualStudio.ProjectFixerRunner|Information|0|running fixup on project 'C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\samples\JavaGL\JavaGL.csproj'|2018-04-06 01:58:31Z
+Xamarin.VisualStudio.ProjectFixerRunner|Information|0|running fixup on project 'C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\source\Google.ARCore.csproj'|2018-04-06 01:58:31Z
+Clide.OutputWindowManager|Start|0|Initializing trace output pane 'Debug'.|2018-04-06 02:00:35Z
+Clide.OutputWindowManager|Verbose|0|Retrieving potentially existing output pane 'Debug'.|2018-04-06 02:00:35Z
+Clide.OutputWindowManager|Stop|0|Initializing trace output pane 'Debug'.|2018-04-06 02:00:35Z
+Clide.OutputWindowManager|Start|0|Initializing trace output pane 'Debug'.|2018-04-06 02:00:47Z
+Clide.OutputWindowManager|Verbose|0|Retrieving potentially existing output pane 'Debug'.|2018-04-06 02:00:47Z
+Clide.OutputWindowManager|Stop|0|Initializing trace output pane 'Debug'.|2018-04-06 02:00:47Z
+Xamarin.VisualStudio.ProgressReport|Error|0|System.Exception: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install Mono.Android.DebugRuntime without first uninstalling.]
+
+   at Xamarin.VisualStudio.Android.Services.AndroidToolsBuildService.RunMSBuildTarget(Project project, IProgressReport progress, String msbuildTarget, IDictionary`2 properties, IDictionary`2 globalProperties, Boolean runInProc) in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\Services\AndroidToolsBuildService.cs:line 156
+   at Xamarin.VisualStudio.Android.Services.AndroidToolsBuildService.InstallPackage(Project project, IMonoAndroidDevice device, Boolean preserveDeviceData, IProgressReport progress, Boolean runInProc) in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\Services\AndroidToolsBuildService.cs:line 114
+   at Xamarin.VisualStudio.Android.CommandHandlers.DeployCommandHandler.ExecuteDeploy(Project project, IMonoAndroidDevice device, IAndroidProjectProperties projectProperties, IProgressReport progress, Boolean runInProc, CancellationToken cancellationToken) in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\CommandHandlers\DeployCommandHandler.cs:line 150
+   at Xamarin.VisualStudio.Android.CommandHandlers.DeployCommandHandler.Execute(DeployCommand command, IProgressReport progress, CancellationToken cancellationToken) in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\CommandHandlers\DeployCommandHandler.cs:line 116
+   at Xamarin.VisualStudio.Commands.CommandHandlerBase`2.Execute(TCommand command, CancellationToken cancellationToken)|2018-04-06 02:02:44Z
+Clide.OutputWindowManager|Start|0|Initializing trace output pane 'Debug'.|2018-04-06 02:03:06Z
+Clide.OutputWindowManager|Verbose|0|Retrieving potentially existing output pane 'Debug'.|2018-04-06 02:03:06Z
+Clide.OutputWindowManager|Stop|0|Initializing trace output pane 'Debug'.|2018-04-06 02:03:06Z
+Mono.Debugging.VisualStudio.MonoDebuggerLauncher|Verbose|0|Entering constructor for: Mono.Debugging.VisualStudio.MonoDebuggerLauncher|2018-04-06 02:03:06Z
+Mono.Debugging.VisualStudio.MonoDebuggerLauncher|Verbose|0|Entering Start() for: Mono.Debugging.VisualStudio.MonoDebuggerLauncher|2018-04-06 02:03:06Z
+Mono.Debugging.VisualStudio.DebugLauncher|Verbose|0|Entering Launch for: Mono.Debugging.VisualStudio.DebugLauncher|2018-04-06 02:03:06Z
+Xamarin.VisualStudio.UnhandledExceptionsManager|Error|0|An unhandled error occurred. Details: Device could not find component named: com.xamarin.HelloAR/md5ca449855267a3605c5568b639cbf98f5.MainActivity
+
+Mono.AndroidTools.ActivityNotFoundException: Device could not find component named: com.xamarin.HelloAR/md5ca449855267a3605c5568b639cbf98f5.MainActivity
+   at Mono.AndroidTools.Internal.AdbOutputParsing.CheckStartResult(String output, String activity)
+   at Mono.AndroidTools.AndroidDevice.<ExecuteIntentCommandAsync>d__85.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at AndroidDeviceExtensions.<StartActivityWithDebugging>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Xamarin.VisualStudio.Android.MonoAndroidDebuggerSession.<>c__DisplayClass10_1.<<StartMonoDroid>b__3>d.MoveNext() in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\Debugging\MonoAndroidDebuggerSession.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Merq.AsyncManager.Run(Func`1 asyncMethod) in C:\projects\merq\src\Async\Merq.Async.Core\Merq.Async.Core.Portable\AsyncManager.cs:line 58
+   at Xamarin.VisualStudio.Android.MonoAndroidDebuggerSession.StartMonoDroid(SoftDebuggerRemoteArgs args) in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\Debugging\MonoAndroidDebuggerSession.cs:line 151
+   at Xamarin.VisualStudio.Android.MonoAndroidDebuggerSession.OnRun(DebuggerStartInfo startInfo) in C:\d\lanes\4699\c8715752\source\xamarinvs\src\Core\VisualStudio.Android\Debugging\MonoAndroidDebuggerSession.cs:line 64
+   at Mono.Debugging.Client.DebuggerSession.<>c__DisplayClass86_0.<Run>b__0()
+   at Mono.Debugging.Client.DebuggerSession.<Dispatch>b__85_0(Object <p0>)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()|2018-04-06 02:03:39Z

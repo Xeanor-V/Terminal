@@ -1,0 +1,82 @@
+﻿MonoDroidLog: Information: 0: [I:]:                     Found Xamarin.Android 7.3.0.13
+MonoDroidLog: Information: 0: [I:sdk]:                  Runtime path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Xamarin\Android
+MonoDroidLog: Information: 0: [I:sdk]:                  Framework path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\common7\ide\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v1.0
+MonoDroidLog: Information: 0: [I:sdk]:                    Key HKCU\SOFTWARE\Xamarin\VisualStudio\15.0_84657a15\Android\AndroidSdkDirectory found:
+    Path contains adb in \platform-tools (C:\Program Files (x86)\Android\android-sdk).
+MonoDroidLog: Information: 0: [I:sdk]:                    Key HKCU\SOFTWARE\Xamarin\VisualStudio\15.0_84657a15\Android\AndroidNdkDirectory found:
+    Path contains ndk-stack in \. (C:\ProgramData\Microsoft\AndroidNDK64\android-ndk-r13b).
+MonoDroidLog: Information: 0: [I:sdk]:                    Key HKCU\SOFTWARE\Xamarin\VisualStudio\15.0_84657a15\Android\JavaSdkDirectory found:
+    Path contains jarsigner.exe in \bin (C:\Program Files\Java\jdk1.8.0_112).
+MonoDroidLog: Information: 0: [I:]:                     Found Android SDK. API levels: 23, 24
+MonoDroidLog: Information: 0: [I:]:                     Tracking android devices started
+MonoDroidLog: Information: 0: [D:]:                     Tracking avd started
+MonoDroidLog: Information: 0: [D:]:                     TrackDeviceTask got: 8a03aaa7	device
+MonoDroidLog: Information: 0: [D:]:                     avd watcher *.ini path: 'C:\Users\master\.android\avd'
+MonoDroidLog: Information: 0: [I:]:                     Got new device list from adb with 1 devices
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 getprop
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 getprop
+MonoDroidLog: Information: 0: [D:]:                     avd watcher: got device list from avd with 4 devices
+MonoDroidLog: Information: 0: [I:]:                     Found Android SDK. API levels: 23, 24
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 getprop
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 am broadcast -a "mono.android.intent.action.PACKAGE_VERSIONS" -e "packages" "Mono.Android.DebugRuntime,Mono.Android.Platform.ApiLevel_24,com.xamarin.HelloAR" -n "Mono.Android.DebugRuntime/com.xamarin.mono.android.PackageVersions"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /data/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /dbdata/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm uninstall "Mono.Android.DebugRuntime"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm uninstall "Mono.Android.DebugRuntime"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm install "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 rm "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 am broadcast -a "mono.android.intent.action.PACKAGE_VERSIONS" -e "packages" "Mono.Android.DebugRuntime,Mono.Android.Platform.ApiLevel_24,com.xamarin.HelloAR" -n "Mono.Android.DebugRuntime/com.xamarin.mono.android.PackageVersions"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /data/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /dbdata/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 "pm" "list" "packages" "-f"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm install "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 rm "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Error: 0: [E:]:                     Deployment failed
+Mono.AndroidTools.InstallFailedException: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install Mono.Android.DebugRuntime without first uninstalling.]
+   at Mono.AndroidTools.Internal.AdbOutputParsing.CheckInstallSuccess(String output, String packageName)
+   at Mono.AndroidTools.AndroidDevice.<>c__DisplayClass91_0.<InstallPackage>b__0(Task`1 t)
+   at System.Threading.Tasks.ContinuationTaskFromResultTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+MonoDroidLog: Information: 0: [I:]:                     Found Android SDK. API levels: 23, 24
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 getprop
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 am broadcast -a "mono.android.intent.action.PACKAGE_VERSIONS" -e "packages" "Mono.Android.DebugRuntime,Mono.Android.Platform.ApiLevel_24,com.xamarin.HelloAR" -n "Mono.Android.DebugRuntime/com.xamarin.mono.android.PackageVersions"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /data/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /dbdata/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm uninstall "Mono.Android.DebugRuntime"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm uninstall "Mono.Android.DebugRuntime"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm install "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 rm "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 am broadcast -a "mono.android.intent.action.PACKAGE_VERSIONS" -e "packages" "Mono.Android.DebugRuntime,Mono.Android.Platform.ApiLevel_24,com.xamarin.HelloAR" -n "Mono.Android.DebugRuntime/com.xamarin.mono.android.PackageVersions"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /data/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /dbdata/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 "pm" "list" "packages" "-f"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm install "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 rm "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Error: 0: [E:]:                     Deployment failed
+Mono.AndroidTools.InstallFailedException: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install Mono.Android.DebugRuntime without first uninstalling.]
+   at Mono.AndroidTools.Internal.AdbOutputParsing.CheckInstallSuccess(String output, String packageName)
+   at Mono.AndroidTools.AndroidDevice.<>c__DisplayClass91_0.<InstallPackage>b__0(Task`1 t)
+   at System.Threading.Tasks.ContinuationTaskFromResultTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+MonoDroidLog: Information: 0: [I:]:                     Found Android SDK. API levels: 23, 24
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 getprop
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 am broadcast -a "mono.android.intent.action.PACKAGE_VERSIONS" -e "packages" "Mono.Android.DebugRuntime,Mono.Android.Platform.ApiLevel_24,com.xamarin.HelloAR" -n "Mono.Android.DebugRuntime/com.xamarin.mono.android.PackageVersions"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /data/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /dbdata/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm uninstall "Mono.Android.DebugRuntime"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm uninstall "Mono.Android.DebugRuntime"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm install "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 rm "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 am broadcast -a "mono.android.intent.action.PACKAGE_VERSIONS" -e "packages" "Mono.Android.DebugRuntime,Mono.Android.Platform.ApiLevel_24,com.xamarin.HelloAR" -n "Mono.Android.DebugRuntime/com.xamarin.mono.android.PackageVersions"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /data/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 cat /dbdata/system/packages.xml
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 "pm" "list" "packages" "-f"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 pm install "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Information: 0: [D:RunShellCommand]:      8a03aaa7 rm "/data/local/tmp/Mono.Android.DebugRuntime-debug.apk"
+MonoDroidLog: Error: 0: [E:]:                     Deployment failed
+Mono.AndroidTools.InstallFailedException: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install Mono.Android.DebugRuntime without first uninstalling.]
+   at Mono.AndroidTools.Internal.AdbOutputParsing.CheckInstallSuccess(String output, String packageName)
+   at Mono.AndroidTools.AndroidDevice.<>c__DisplayClass91_0.<InstallPackage>b__0(Task`1 t)
+   at System.Threading.Tasks.ContinuationTaskFromResultTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+MonoDroidLog: Information: 0: [I:]:                     Tracking android devices stopped
