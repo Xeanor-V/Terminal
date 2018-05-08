@@ -1,0 +1,5 @@
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\source\bin\Debug\Xamarin.Google.ARCore.dll
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\source\bin\Debug\Xamarin.Google.ARCore.pdb
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\source\obj\Debug\Google.ARCore.csprojResolveAssemblyReference.cache
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\source\obj\Debug\Xamarin.Google.ARCore.dll
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\source\obj\Debug\Xamarin.Google.ARCore.pdb

@@ -1,0 +1,1188 @@
+<api>
+  <package name="de.javagl.obj" managedName="JavaGl.Obj">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AbstractWritableObj" static="false" visibility="public">
+      <implements name="de.javagl.obj.WritableObj" name-generic-aware="de.javagl.obj.WritableObj">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="AbstractWritableObj" static="false" type="de.javagl.obj.AbstractWritableObj" visibility="protected">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="face" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int[]">
+        </parameter>
+        <parameter name="vt" type="int[]">
+        </parameter>
+        <parameter name="vn" type="int[]">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFaceWithAll" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFaceWithNormals" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFaceWithTexCoords" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="normal" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="texCoord" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addVertex" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="vertex" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addVertex" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setActiveGroupNames" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="groupNames" type="java.util.Collection&lt;? extends java.lang.String&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setActiveMaterialGroupName" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="materialGroupName" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMtlFileNames" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="mtlFileNames" type="java.util.Collection&lt;? extends java.lang.String&gt;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BasicWritableObj" static="false" visibility="public">
+      <implements name="de.javagl.obj.WritableObj" name-generic-aware="de.javagl.obj.WritableObj">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="BasicWritableObj" static="false" type="de.javagl.obj.BasicWritableObj" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="face" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int[]">
+        </parameter>
+        <parameter name="vt" type="int[]">
+        </parameter>
+        <parameter name="vn" type="int[]">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFaceWithAll" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFaceWithNormals" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addFaceWithTexCoords" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="normal" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="texCoord" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addVertex" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="vertex" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="addVertex" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setActiveGroupNames" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="groupNames" type="java.util.Collection&lt;? extends java.lang.String&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setActiveMaterialGroupName" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="materialGroupName" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFaceConsumer" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="faceConsumer" type="java.util.function.Consumer&lt;? super de.javagl.obj.ObjFace&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setGroupNamesConsumer" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="groupNamesConsumer" type="java.util.function.Consumer&lt;? super java.util.Collection&lt;? extends java.lang.String&gt;&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMaterialGroupNameConsumer" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="materialGroupNameConsumer" type="java.util.function.Consumer&lt;? super java.lang.String&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setMtlFileNames" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="mtlFileNames" type="java.util.Collection&lt;? extends java.lang.String&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMtlFileNamesConsumer" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="mtlFileNamesConsumer" type="java.util.function.Consumer&lt;? super java.util.Collection&lt;? extends java.lang.String&gt;&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setNormalConsumer" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="normalConsumer" type="java.util.function.Consumer&lt;? super de.javagl.obj.FloatTuple&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTexCoordConsumer" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="texCoordConsumer" type="java.util.function.Consumer&lt;? super de.javagl.obj.FloatTuple&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setVertexConsumer" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="vertexConsumer" type="java.util.function.Consumer&lt;? super de.javagl.obj.FloatTuple&gt;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DefaultFloatTuple" static="false" visibility="">
+      <implements name="de.javagl.obj.FloatTuple" name-generic-aware="de.javagl.obj.FloatTuple">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="get" native="false" return="float" static="false" synchronized="false" visibility="public">
+        <parameter name="index" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDimensions" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getW" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getX" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getY" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getZ" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DefaultMtl" static="false" visibility="">
+      <implements name="de.javagl.obj.Mtl" name-generic-aware="de.javagl.obj.Mtl">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getD" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getKa" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getKd" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getKs" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMapKd" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNs" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setD" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="d" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setKa" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="ka0" type="float">
+        </parameter>
+        <parameter name="ka1" type="float">
+        </parameter>
+        <parameter name="ka2" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setKd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="kd0" type="float">
+        </parameter>
+        <parameter name="kd1" type="float">
+        </parameter>
+        <parameter name="kd2" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setKs" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="ks0" type="float">
+        </parameter>
+        <parameter name="ks1" type="float">
+        </parameter>
+        <parameter name="ks2" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMapKd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="mapKd" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setNs" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="ns" type="float">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DefaultObj" static="false" visibility="">
+      <implements name="de.javagl.obj.Obj" name-generic-aware="de.javagl.obj.Obj">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="face" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int[]">
+        </parameter>
+        <parameter name="vt" type="int[]">
+        </parameter>
+        <parameter name="vn" type="int[]">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addFaceWithAll" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addFaceWithNormals" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addFaceWithTexCoords" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="int...">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="normal" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="texCoord" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addVertex" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="vertex" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addVertex" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getActivatedGroupNames" native="false" return="java.util.Set&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+        <parameter name="face" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getActivatedMaterialGroupName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="face" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFace" native="false" return="de.javagl.obj.ObjFace" static="false" synchronized="false" visibility="public">
+        <parameter name="index" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getGroup" native="false" return="de.javagl.obj.ObjGroup" static="false" synchronized="false" visibility="public">
+        <parameter name="index" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getGroup" native="false" return="de.javagl.obj.ObjGroup" static="false" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMaterialGroup" native="false" return="de.javagl.obj.ObjGroup" static="false" synchronized="false" visibility="public">
+        <parameter name="index" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMaterialGroup" native="false" return="de.javagl.obj.ObjGroup" static="false" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMtlFileNames" native="false" return="java.util.List&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNormal" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+        <parameter name="index" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNumFaces" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNumGroups" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNumMaterialGroups" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNumNormals" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNumTexCoords" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNumVertices" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTexCoord" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+        <parameter name="index" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getVertex" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+        <parameter name="index" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setActiveGroupNames" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="groupNames" type="java.util.Collection&lt;? extends java.lang.String&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setActiveMaterialGroupName" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="materialGroupName" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMtlFileNames" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="mtlFileNames" type="java.util.Collection&lt;? extends java.lang.String&gt;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DefaultObjFace" static="false" visibility="">
+      <implements name="de.javagl.obj.ObjFace" name-generic-aware="de.javagl.obj.ObjFace">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="containsNormalIndices" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="containsTexCoordIndices" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNormalIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="number" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNumVertices" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTexCoordIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="number" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getVertexIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="number" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DefaultObjGroup" static="false" visibility="">
+      <implements name="de.javagl.obj.ObjGroup" name-generic-aware="de.javagl.obj.ObjGroup">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFace" native="false" return="de.javagl.obj.ObjFace" static="false" synchronized="false" visibility="public">
+        <parameter name="index" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNumFaces" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="FloatTuple" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="get" native="false" return="float" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getDimensions" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getW" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getX" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getY" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getZ" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FloatTuples" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="copy" native="false" return="de.javagl.obj.FloatTuple" static="true" synchronized="false" visibility="public">
+        <parameter name="other" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="de.javagl.obj.FloatTuple" static="true" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="de.javagl.obj.FloatTuple" static="true" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="de.javagl.obj.FloatTuple" static="true" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="de.javagl.obj.FloatTuple" static="true" synchronized="false" visibility="public">
+        <parameter name="x" type="float">
+        </parameter>
+        <parameter name="y" type="float">
+        </parameter>
+        <parameter name="z" type="float">
+        </parameter>
+        <parameter name="w" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createString" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+        <parameter name="tuple" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="Mtl" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getD" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getKa" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getKd" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getKs" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getMapKd" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNs" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setD" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setKa" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="float">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setKd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="float">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setKs" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="float">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setMapKd" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setNs" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MtlReader" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" native="false" return="java.util.List&lt;de.javagl.obj.Mtl&gt;" static="true" synchronized="false" visibility="public">
+        <parameter name="inputStream" type="java.io.InputStream">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" native="false" return="java.util.List&lt;de.javagl.obj.Mtl&gt;" static="true" synchronized="false" visibility="public">
+        <parameter name="reader" type="java.io.Reader">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Mtls" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="de.javagl.obj.Mtl" static="true" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MtlWriter" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="mtls" type="java.lang.Iterable&lt;? extends de.javagl.obj.Mtl&gt;">
+        </parameter>
+        <parameter name="outputStream" type="java.io.OutputStream">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="mtls" type="java.lang.Iterable&lt;? extends de.javagl.obj.Mtl&gt;">
+        </parameter>
+        <parameter name="writer" type="java.io.Writer">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="Obj" static="false" visibility="public">
+      <implements name="de.javagl.obj.ReadableObj" name-generic-aware="de.javagl.obj.ReadableObj">
+      </implements>
+      <implements name="de.javagl.obj.WritableObj" name-generic-aware="de.javagl.obj.WritableObj">
+      </implements>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ObjData" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceNormalIndices" native="false" return="java.nio.IntBuffer" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceNormalIndices" native="false" return="java.nio.IntBuffer" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="numVerticesPerFace" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceNormalIndices" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="target" type="java.nio.IntBuffer">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceNormalIndicesArray" native="false" return="int[]" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceNormalIndicesArray" native="false" return="int[]" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="numVerticesPerFace" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceTexCoordIndices" native="false" return="java.nio.IntBuffer" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceTexCoordIndices" native="false" return="java.nio.IntBuffer" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="numVerticesPerFace" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceTexCoordIndices" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="target" type="java.nio.IntBuffer">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceTexCoordIndicesArray" native="false" return="int[]" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceTexCoordIndicesArray" native="false" return="int[]" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="numVerticesPerFace" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceVertexIndices" native="false" return="java.nio.IntBuffer" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceVertexIndices" native="false" return="java.nio.IntBuffer" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="numVerticesPerFace" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceVertexIndices" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="target" type="java.nio.IntBuffer">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceVertexIndicesArray" native="false" return="int[]" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFaceVertexIndicesArray" native="false" return="int[]" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="numVerticesPerFace" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNormals" native="false" return="java.nio.FloatBuffer" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNormals" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="target" type="java.nio.FloatBuffer">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNormalsArray" native="false" return="float[]" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTexCoords" native="false" return="java.nio.FloatBuffer" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="dimensions" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTexCoords" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="target" type="java.nio.FloatBuffer">
+        </parameter>
+        <parameter name="dimensions" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTexCoordsArray" native="false" return="float[]" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="dimensions" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTotalNumFaceVertices" native="false" return="int" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getVertices" native="false" return="java.nio.FloatBuffer" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getVertices" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="target" type="java.nio.FloatBuffer">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getVerticesArray" native="false" return="float[]" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ObjFace" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="containsNormalIndices" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="containsTexCoordIndices" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNormalIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNumVertices" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTexCoordIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getVertexIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="ObjFaceParser" static="false" visibility="">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ObjFaces" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="de.javagl.obj.ObjFace" static="true" synchronized="false" visibility="public">
+        <parameter name="v" type="int[]">
+        </parameter>
+        <parameter name="vt" type="int[]">
+        </parameter>
+        <parameter name="vn" type="int[]">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createString" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+        <parameter name="face" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ObjGroup" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getFace" native="false" return="de.javagl.obj.ObjFace" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNumFaces" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ObjReader" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" native="false" return="de.javagl.obj.Obj" static="true" synchronized="false" visibility="public">
+        <parameter name="inputStream" type="java.io.InputStream">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" native="false" return="T" static="true" synchronized="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T">
+            <genericConstraints>
+              <genericConstraint type="de.javagl.obj.WritableObj">
+              </genericConstraint>
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="inputStream" type="java.io.InputStream">
+        </parameter>
+        <parameter name="output" type="T">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" native="false" return="de.javagl.obj.Obj" static="true" synchronized="false" visibility="public">
+        <parameter name="reader" type="java.io.Reader">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" native="false" return="T" static="true" synchronized="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T">
+            <genericConstraints>
+              <genericConstraint type="de.javagl.obj.WritableObj">
+              </genericConstraint>
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="reader" type="java.io.Reader">
+        </parameter>
+        <parameter name="output" type="T">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Objs" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="de.javagl.obj.Obj" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createFromIndexedTriangleData" native="false" return="de.javagl.obj.Obj" static="true" synchronized="false" visibility="public">
+        <parameter name="indices" type="java.nio.IntBuffer">
+        </parameter>
+        <parameter name="vertices" type="java.nio.FloatBuffer">
+        </parameter>
+        <parameter name="texCoords" type="java.nio.FloatBuffer">
+        </parameter>
+        <parameter name="normals" type="java.nio.FloatBuffer">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ObjUtils" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="convertToRenderable" native="false" return="de.javagl.obj.Obj" static="true" synchronized="false" visibility="public">
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="convertToRenderable" native="false" return="T" static="true" synchronized="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T">
+            <genericConstraints>
+              <genericConstraint type="de.javagl.obj.WritableObj">
+              </genericConstraint>
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="output" type="T">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createInfoString" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+        <parameter name="obj" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="groupToObj" native="false" return="de.javagl.obj.Obj" static="true" synchronized="false" visibility="public">
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="inputGroup" type="de.javagl.obj.ObjGroup">
+        </parameter>
+        <parameter name="vertexIndexMapping" type="java.util.List&lt;java.lang.Integer&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="groupToObj" native="false" return="T" static="true" synchronized="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T">
+            <genericConstraints>
+              <genericConstraint type="de.javagl.obj.WritableObj">
+              </genericConstraint>
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="inputGroup" type="de.javagl.obj.ObjGroup">
+        </parameter>
+        <parameter name="vertexIndexMapping" type="java.util.List&lt;java.lang.Integer&gt;">
+        </parameter>
+        <parameter name="output" type="T">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="makeNormalsUnique" native="false" return="de.javagl.obj.Obj" static="true" synchronized="false" visibility="public">
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="makeNormalsUnique" native="false" return="T" static="true" synchronized="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T">
+            <genericConstraints>
+              <genericConstraint type="de.javagl.obj.WritableObj">
+              </genericConstraint>
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="indexMapping" type="java.util.List&lt;java.lang.Integer&gt;">
+        </parameter>
+        <parameter name="output" type="T">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="makeTexCoordsUnique" native="false" return="de.javagl.obj.Obj" static="true" synchronized="false" visibility="public">
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="makeTexCoordsUnique" native="false" return="T" static="true" synchronized="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T">
+            <genericConstraints>
+              <genericConstraint type="de.javagl.obj.WritableObj">
+              </genericConstraint>
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="indexMapping" type="java.util.List&lt;java.lang.Integer&gt;">
+        </parameter>
+        <parameter name="output" type="T">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="makeVertexIndexed" native="false" return="de.javagl.obj.Obj" static="true" synchronized="false" visibility="public">
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="makeVertexIndexed" native="false" return="T" static="true" synchronized="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T">
+            <genericConstraints>
+              <genericConstraint type="de.javagl.obj.WritableObj">
+              </genericConstraint>
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="output" type="T">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="triangulate" native="false" return="de.javagl.obj.Obj" static="true" synchronized="false" visibility="public">
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="triangulate" native="false" return="T" static="true" synchronized="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T">
+            <genericConstraints>
+              <genericConstraint type="de.javagl.obj.WritableObj">
+              </genericConstraint>
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="output" type="T">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="ObjUtils.1" static="true" visibility="">
+      <implements name="de.javagl.obj.ObjUtils.PropertyIndexAccessor" name-generic-aware="de.javagl.obj.ObjUtils.PropertyIndexAccessor">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPropertyIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="face" type="de.javagl.obj.ObjFace">
+        </parameter>
+        <parameter name="vertexNumber" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasProperty" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="face" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="ObjUtils.2" static="true" visibility="">
+      <implements name="de.javagl.obj.ObjUtils.PropertyIndexAccessor" name-generic-aware="de.javagl.obj.ObjUtils.PropertyIndexAccessor">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPropertyIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="face" type="de.javagl.obj.ObjFace">
+        </parameter>
+        <parameter name="vertexNumber" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasProperty" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="face" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ObjUtils.PropertyIndexAccessor" static="true" visibility="private">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getPropertyIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="p1" type="de.javagl.obj.ObjFace">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="hasProperty" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ObjWriter" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="outputStream" type="java.io.OutputStream">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="input" type="de.javagl.obj.ReadableObj">
+        </parameter>
+        <parameter name="writer" type="java.io.Writer">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ReadableObj" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getActivatedGroupNames" native="false" return="java.util.Set&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getActivatedMaterialGroupName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getFace" native="false" return="de.javagl.obj.ObjFace" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getGroup" native="false" return="de.javagl.obj.ObjGroup" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getGroup" native="false" return="de.javagl.obj.ObjGroup" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getMaterialGroup" native="false" return="de.javagl.obj.ObjGroup" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getMaterialGroup" native="false" return="de.javagl.obj.ObjGroup" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getMtlFileNames" native="false" return="java.util.List&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNormal" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNumFaces" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNumGroups" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNumMaterialGroups" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNumNormals" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNumTexCoords" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getNumVertices" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getTexCoord" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getVertex" native="false" return="de.javagl.obj.FloatTuple" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="WritableObj" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="de.javagl.obj.ObjFace">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int...">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addFace" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int[]">
+        </parameter>
+        <parameter name="p1" type="int[]">
+        </parameter>
+        <parameter name="p2" type="int[]">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addFaceWithAll" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int...">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addFaceWithNormals" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int...">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addFaceWithTexCoords" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int...">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="float">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addTexCoord" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="float">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addVertex" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="de.javagl.obj.FloatTuple">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="addVertex" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="float">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setActiveGroupNames" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.Collection&lt;? extends java.lang.String&gt;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setActiveMaterialGroupName" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setMtlFileNames" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.Collection&lt;? extends java.lang.String&gt;">
+        </parameter>
+      </method>
+    </interface>
+  </package>
+</api>

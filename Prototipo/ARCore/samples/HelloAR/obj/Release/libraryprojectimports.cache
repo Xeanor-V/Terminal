@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\obj\Release\__library_projects__\Xamarin.Android.Support.Design\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\obj\Release\__library_projects__\Xamarin.Android.Support.Transition\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\obj\Release\__library_projects__\Xamarin.Android.Support.v7.AppCompat\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\obj\Release\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\obj\Release\__library_projects__\Xamarin.Google.ARCore\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories />
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\obj\Release\__library_projects__\Xamarin.Android.Support.Design.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\obj\Release\__library_projects__\Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\obj\Release\__library_projects__\Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\obj\Release\__library_projects__\Xamarin.Android.Support.v7.RecyclerView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\HelloAR\obj\Release\__library_projects__\Xamarin.Google.ARCore.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

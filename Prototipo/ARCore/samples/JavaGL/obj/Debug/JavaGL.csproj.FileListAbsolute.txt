@@ -1,0 +1,5 @@
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\samples\JavaGL\bin\Debug\JavaGL.dll
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\samples\JavaGL\bin\Debug\JavaGL.pdb
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\samples\JavaGL\obj\Debug\JavaGL.csprojResolveAssemblyReference.cache
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\samples\JavaGL\obj\Debug\JavaGL.dll
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\samples\JavaGL\obj\Debug\JavaGL.pdb

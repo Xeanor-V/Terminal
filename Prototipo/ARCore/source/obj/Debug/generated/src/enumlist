@@ -1,0 +1,11 @@
+com.google.ar.core.ArCoreApk$Availability:Google.AR.Core:ArCoreApk.Availability
+com.google.ar.core.ArCoreApk$InstallBehavior:Google.AR.Core:ArCoreApk.InstallBehavior
+com.google.ar.core.ArCoreApk$InstallStatus:Google.AR.Core:ArCoreApk.InstallStatus
+com.google.ar.core.ArCoreApk$UserMessageType:Google.AR.Core:ArCoreApk.UserMessageType
+com.google.ar.core.Config$LightEstimationMode:Google.AR.Core:Config.LightEstimationMode
+com.google.ar.core.Config$PlaneFindingMode:Google.AR.Core:Config.PlaneFindingMode
+com.google.ar.core.Config$UpdateMode:Google.AR.Core:Config.UpdateMode
+com.google.ar.core.LightEstimate$State:Google.AR.Core:LightEstimate.State
+com.google.ar.core.Plane$Type:Google.AR.Core:Plane.Type
+com.google.ar.core.Point$OrientationMode:Google.AR.Core:Point.OrientationMode
+com.google.ar.core.TrackingState:Google.AR.Core:TrackingState

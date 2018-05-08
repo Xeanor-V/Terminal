@@ -1,0 +1,13 @@
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\source\bin\Release\Xamarin.Google.ARCore.dll
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\source\bin\Release\Xamarin.Google.ARCore.pdb
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\source\obj\Release\Xamarin.Google.ARCore.dll
+C:\Users\master\Documents\TT1\Prototipo\XamarinComponents\Android\ARCore\source\obj\Release\Xamarin.Google.ARCore.pdb
+C:\Users\master\Documents\Terminal\Terminal\Prototipo\XamarinComponents\Android\ARCore\source\bin\Release\Xamarin.Google.ARCore.dll
+C:\Users\master\Documents\Terminal\Terminal\Prototipo\XamarinComponents\Android\ARCore\source\bin\Release\Xamarin.Google.ARCore.pdb
+C:\Users\master\Documents\Terminal\Terminal\Prototipo\XamarinComponents\Android\ARCore\source\obj\Release\Google.ARCore.csprojResolveAssemblyReference.cache
+C:\Users\master\Documents\Terminal\Terminal\Prototipo\XamarinComponents\Android\ARCore\source\obj\Release\Xamarin.Google.ARCore.dll
+C:\Users\master\Documents\Terminal\Terminal\Prototipo\XamarinComponents\Android\ARCore\source\obj\Release\Xamarin.Google.ARCore.pdb
+C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\source\bin\Release\Xamarin.Google.ARCore.dll
+C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\source\bin\Release\Xamarin.Google.ARCore.pdb
+C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\source\obj\Release\Xamarin.Google.ARCore.dll
+C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\source\obj\Release\Xamarin.Google.ARCore.pdb
