@@ -11,3 +11,7 @@ C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\s
 C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\JavaGL\bin\Release\JavaGL.pdb
 C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\JavaGL\obj\Release\JavaGL.dll
 C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\samples\JavaGL\obj\Release\JavaGL.pdb
+C:\Users\master\Documents\TT Github\Prototipo\ARCore\samples\JavaGL\bin\Release\JavaGL.dll
+C:\Users\master\Documents\TT Github\Prototipo\ARCore\samples\JavaGL\bin\Release\JavaGL.pdb
+C:\Users\master\Documents\TT Github\Prototipo\ARCore\samples\JavaGL\obj\Release\JavaGL.dll
+C:\Users\master\Documents\TT Github\Prototipo\ARCore\samples\JavaGL\obj\Release\JavaGL.pdb

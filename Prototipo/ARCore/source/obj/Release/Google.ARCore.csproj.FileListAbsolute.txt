@@ -11,3 +11,7 @@ C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\s
 C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\source\bin\Release\Xamarin.Google.ARCore.pdb
 C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\source\obj\Release\Xamarin.Google.ARCore.dll
 C:\Users\master\Documents\TT Github\Prototipo\XamarinComponents\Android\ARCore\source\obj\Release\Xamarin.Google.ARCore.pdb
+C:\Users\master\Documents\TT Github\Prototipo\ARCore\source\bin\Release\Xamarin.Google.ARCore.dll
+C:\Users\master\Documents\TT Github\Prototipo\ARCore\source\bin\Release\Xamarin.Google.ARCore.pdb
+C:\Users\master\Documents\TT Github\Prototipo\ARCore\source\obj\Release\Xamarin.Google.ARCore.dll
+C:\Users\master\Documents\TT Github\Prototipo\ARCore\source\obj\Release\Xamarin.Google.ARCore.pdb

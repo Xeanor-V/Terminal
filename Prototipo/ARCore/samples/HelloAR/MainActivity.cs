@@ -190,7 +190,7 @@ namespace HelloAR
 			// Prepare the other rendering objects.
 			try
 			{
-				mVirtualObject.CreateOnGlThread(/*context=*/this, "andy.obj", "andy.png");
+				mVirtualObject.CreateOnGlThread(/*context=*/this, "CHALLENGER71.obj", "escom.jpeg");
 				mVirtualObject.setMaterialProperties(0.0f, 3.5f, 1.0f, 6.0f);
 
 				mVirtualObjectShadow.CreateOnGlThread(/*context=*/this,
